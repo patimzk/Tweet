@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+:root {
+    --text: #0F1419;
+    --icons-text: #536471;
+    --border: #DADDDF;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-tweet {
+    width: 591px;
+    height: 161px;
+    display: flex;
+    border: 1px solid var(--border);
+    box-sizing: border-box;
+
+}
+
+.image {
+    margin: 17px 12px 96px 17px;
+}
+
+.header {
+    display: flex;
+    margin-top: 17px;
+}
+
+h1 {
+    margin-right: 4px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.verify {
+    height: 15px;
+    width: 15px;
+    margin-right: 6px;
+    
+
+}
+
+h2,
+.date {
+    margin-right: 5px;
+    color: var(--icons-text);
+    font-weight: 100;
+    font-size: 15px;
+
+}
+
+.dot {
+    width: 3px;
+    height: 3px;
+    background: var(--icons-text);
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-top: 8px;
+
+}
+
+.main p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 430px;
+  font-weight: 400;
+}
+
+.margin {
+    margin-top: 38px;
+}
+
+.footer {
+    margin-top: 15px;
+    display: flex;
+}
+
+.box {
+    margin-top: 5px;
+    margin-right: 73px;
+    padding-bottom: 19px;
+}
+
+small {
+    color: var(--icons-text);
+    font-size: 13px;
+    padding: 10px
+
+}
